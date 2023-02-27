@@ -1,21 +1,47 @@
-body{
-
-background-color: black;
-
+body {
+    background-color: black;
+    display: grid;
+    place-items: center;
+    height: 90vh;
 }
-
-.media{
-
-margin-left: 710px;
-
-padding: 10px;
-
-border-radius: 50px;
-
-height: 110px;
-
-width: 422px;
-
-background-color: wheat;
-
+h1 {
+    color: white;
+    transition: all 0.6s;
+    padding: 0;
+    cursor: default;
+}
+.imglol, h1 {
+    display: grid;
+    justify-content: center;
+}
+.imgmidea > a {
+    transition: all 0.7s;
+}
+.narath {
+    border-radius: 100px;
+    transition: all 0.6s;
+    border: 3px solid slateblue;
+}
+.narath:hover {
+    border-radius: 50px;
+    border: 2px solid skyblue;
+}
+.imgmidea:hover > :not(:hover) {
+    filter: blur(8px);
+}
+h1:hover {
+    color: transparent;
+    background: linear-gradient(to top, blue, green);
+    -webkit-background-clip: text;
+}
+.jkj {
+    background: linear-gradient(to left, green, blue, red);
+    padding: 10px;
+    border-radius: 50px;
+}
+img:hover {
+    transform: scale(1.10);
+}
+img {
+    transition: all 0.6s;
 }
